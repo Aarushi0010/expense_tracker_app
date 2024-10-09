@@ -13,7 +13,7 @@ void main(){
   runApp( MaterialApp(
     darkTheme: ThemeData.dark().copyWith(
       colorScheme: kDarkColorScheme,
-      useMaterial3: true ,
+      // useMaterial3: true ,
       cardTheme : const CardTheme().copyWith(
           color: kDarkColorScheme.secondaryContainer ,
           margin: const EdgeInsets.symmetric(
